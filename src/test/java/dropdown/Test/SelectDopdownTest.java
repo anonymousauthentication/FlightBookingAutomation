@@ -11,8 +11,12 @@ public class SelectDopdownTest extends BaseTest {
 	@Test(dependsOnGroups="lanchWebSite")
 	public void selectDrop() throws IOException {
 		getGlobalData();
-		String selectedvalue =  prop.getProperty("selectedvalue");
+		String currency =  prop.getProperty("selectedvalue");
+		String passengerType =  prop.getProperty("passengerType");
+		String  noPassenger = prop.getProperty("NoOfPassenger");
+		int NoOfPassenger = Integer.parseInt(noPassenger);
 		SelectDropDownPageObject sp = new SelectDropDownPageObject(driver);
-		sp.seletdropCheck(selectedvalue);
+		sp.seletCurrency(currency);
+		sp.selectPassenger(passengerType,NoOfPassenger );
 	}
 }
