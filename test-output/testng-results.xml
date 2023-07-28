@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-24T23:56:17 IST" name="Default suite" finished-at="2023-03-24T23:56:33 IST" duration-ms="15883">
+  <suite started-at="2023-03-28T23:54:48 IST" name="Default suite" finished-at="2023-03-28T23:55:15 IST" duration-ms="27162">
     <groups>
-      <group name="lanchWebSite">
-        <method signature="launchWebTest.launchWeb()[pri:0, instance:dropdown.Test.launchWebTest@27462a88]" name="launchWeb" class="dropdown.Test.launchWebTest"/>
-      </group> <!-- lanchWebSite -->
     </groups>
-    <test started-at="2023-03-24T23:56:17 IST" name="Default test" finished-at="2023-03-24T23:56:33 IST" duration-ms="15883">
-      <class name="dropdown.Test.launchWebTest">
-        <test-method signature="launchWeb()[pri:0, instance:dropdown.Test.launchWebTest@27462a88]" started-at="2023-03-24T23:56:17 IST" name="launchWeb" finished-at="2023-03-24T23:56:32 IST" duration-ms="14708" status="PASS">
+    <test started-at="2023-03-28T23:54:48 IST" name="Default test" finished-at="2023-03-28T23:55:15 IST" duration-ms="27162">
+      <class name="dropdown.Test.alertTest">
+        <test-method signature="alertCheck()[pri:0, instance:dropdown.Test.alertTest@49049a04]" started-at="2023-03-28T23:54:48 IST" name="alertCheck" finished-at="2023-03-28T23:55:15 IST" duration-ms="27046" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchWeb -->
-      </class> <!-- dropdown.Test.launchWebTest -->
-      <class name="dropdown.Test.SelectDopdownTest">
-        <test-method signature="selectDrop()[pri:0, instance:dropdown.Test.SelectDopdownTest@59505b48]" started-at="2023-03-24T23:56:32 IST" name="selectDrop" depends-on-groups="lanchWebSite" finished-at="2023-03-24T23:56:33 IST" duration-ms="1015" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectDrop -->
-      </class> <!-- dropdown.Test.SelectDopdownTest -->
+        </test-method> <!-- alertCheck -->
+      </class> <!-- dropdown.Test.alertTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
